@@ -1,21 +1,5 @@
 @charset "utf-8";
-
-html {
-    background-image: url('erol-ahmed-325224-unsplash.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-attachment: fixed;
-}
-
-body {
-    background-color: rgb(126, 150, 247);
-    margin: 5em;
-    margin-top: 0em;
-}
-
-body {
-    background-color: rgb(126, 150, 247);
-}
+/* I set up the image spaceing in the top. */
 
 body>Header>img {
     margin: 3em;
@@ -23,18 +7,8 @@ body>Header>img {
     margin-bottom: 0em;
 }
 
+/* I set up the alignment and the size for the h1 tag. */
 h1 {
     text-align: center;
     font-size: 3em;
-}
-
-section {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1.5em;
-    margin: 2em;
-}
-
-section p {
-    line-height: 2em;
-    text-indent: 4em;
 }

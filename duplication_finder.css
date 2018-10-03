@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+
+html {
+    background-image: url('antique-book-hand-207681.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+body p {
+    color: rgb(255, 220, 20);
+    background-color: rgb(30, 135, 255);
+    margin: 0em 5em;
+    padding: 20px;
+}

@@ -1,11 +1,6 @@
 @charset "utf-8";
 /* I set up the image spaceing in the top. */
 
-body>Header>img {
-    margin-right: 2.5em;
-    margin-top: 0em;
-    margin-left: 2.5em;
-}
 
 /* I set up the alignment and the size for the h1 tag. */
 h1 {

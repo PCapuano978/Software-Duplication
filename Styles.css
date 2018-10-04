@@ -1,12 +1,7 @@
 @charset "utf-8";
 
 /* I set up the background image and its position that will be used for the entire project. */
-html {
-    background-image: url('erol-ahmed-325224-unsplash.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-attachment: fixed;
-}
+
 
 /* I set up the body margin and text color that will be used for the entire project. */
 body {
@@ -57,6 +52,7 @@ section {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.5em;
     margin: 2em;
+    line-height: 2em;
 }
 
 section p {

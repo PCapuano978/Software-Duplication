@@ -14,11 +14,16 @@ body p {
     padding: 20px;
 }
 
-#body_img {
-    float: right;
-    margin-right: 1em;
-    margin-left: 1em;
+body > header > img {
+    float: center;
     border-style: inset;
     border-width: .25em;
     border-color: rgb(255, 220, 20);
 }
+
+ section img {
+    float: right;
+    border-style: inset;
+    border-width: .25em;
+    border-color: rgb(255, 220, 20);
+ }

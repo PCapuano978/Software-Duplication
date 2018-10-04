@@ -2,9 +2,9 @@
 /* I set up the image spaceing in the top. */
 
 body>Header>img {
-    margin: 3em;
+    margin-right: 2.5em;
     margin-top: 0em;
-    margin-bottom: 0em;
+    margin-left: 2.5em;
 }
 
 /* I set up the alignment and the size for the h1 tag. */

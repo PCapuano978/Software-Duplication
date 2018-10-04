@@ -14,10 +14,10 @@ body p {
     padding: 20px;
 }
 
-body img {
+#body_img {
     float: right;
-    margin-right: 7em;
-    margin-left: 1.5em;
+    margin-right: 1em;
+    margin-left: 1em;
     border-style: inset;
     border-width: .25em;
     border-color: rgb(255, 220, 20);

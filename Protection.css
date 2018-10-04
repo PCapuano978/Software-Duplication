@@ -1,1 +1,17 @@
 @charset "utf-8";
+
+html {
+    background-image: url('tim-evans-88330-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+section img {
+    float: right;
+}

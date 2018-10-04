@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+/* I set up the background image and its position that will be used for the entire project. */
+
+
+/* I set up the body margin and text color that will be used for the entire project. */
+body {
+    margin: 5em;
+    margin-top: 0em;
+    color: rgb(0, 0, 0);
+    background-color: rgb(126, 150, 247);
+}
+
+/* I set up the nav with color and position for all its states for the entire project. */
+Header>nav>ul>li>a:visited,
+Header>nav>ul>li>a:link {
+    color: white;
+    background-color: rgb(80, 200, 170);
+    text-decoration: none;
+}
+
+Header>nav>ul>li>a:hover,
+Header>nav>ul>li>a:active {
+    color: rgb(198, 234, 255);
+    text-decoration: none;
+    background-color: rgb(49, 62, 170)
+}
+
+header>nav {
+    display: table;
+    width: 100%;
+}
+
+header>nav>ul {
+    display: table-row;
+    list-style-type: none;
+}
+
+header>nav>ul>li {
+    display: table-cell;
+    text-align: center;
+}
+
+header>nav a {
+    display: block;
+    width: 100%;
+}
+
+/* I set up the font family, size, and spaceing for the entire cite. */
+
+section {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    margin: 2em;
+    line-height: 2em;
+}
+
+section p {
+    line-height: 2em;
+    text-indent: 4em;
+}

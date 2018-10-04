@@ -5,11 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="duplication_finder.css">
+    <link rel="stylesheet" href="Styles.css">
     <title>Duplication Finders</title>
 </head>
 
 <body>
+
+        <Header>
+                <img src="ezgif.com-resize.jpg" alt="Software Duplication">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="protection.html">Protection</a></li>
+                        <li><a href="duplication_finder.html">Duplication Finder</a></li>
+                        <li><a href="legality.html">Legality</a></li>
+                    </ul>
+                </nav>
+            </Header>
+
     <section>
+
+        <h1></h1>
         
         <p> 
             With the occurrence of software duplication and all the negatives it brings, naturally
@@ -29,23 +45,24 @@
 
 
     <img src="Duplication_Finder_Example.png" alt="An example of duplication and the subtle similarities.">
-
-    <p>
-        Dup is especially useful because it can do a great job of countering a technique used in most cases of software
-        duplication which includes putting copied code with gaps of differing sizes. This type of countermeasure is
-        seen in the figure off to the (right/left). In cases like this for Dup, in addition to having to find any
-        distant sections of code that match, it also needs to find locally repeating sections of structure in which the
-        same short code is done again immediately with changed parameters, with names normally having an ending number.
-        However, if the array were to be used in place of these numbered parameters, the repeated code may also be
-        replaced by a loop. Such sections like this are possible to be cases of automatically generated code by a
-        program generator, but there have also been instances found were situations like this are created by hand from
-        a certain specification in which the language was missing arrays in the structures. If the programmer wants to
-        turn the copies of code into calls for new procedures, the relation compared with the parameters’ names in both
-        sections implies what the proper parameters should be instead for the procedure. In another case, if it seems
-        more practical to keep the duplication function, a profile can be created that details for each line of code
-        where other existing copies are in the system based on the maximum amount of exact or parameterized matches so
-        when a bug happens in one of the copies of the code, the programmer can fix all of the other copies as well.
-    </p>
+<p>
+    Dup is especially useful because it can do a great job of countering a technique used in most cases of software
+    duplication which includes putting copied code with gaps of differing sizes. An example of this type of
+    countermeasure
+    is
+    seen in the figure off to the (right/left). In cases like this for Dup, in addition to having to find any
+    distant sections of code that match, it also needs to find locally repeating sections of structure in which the
+    same short code is done again immediately with changed parameters, with names normally having an ending number.
+    However, if the array were to be used in place of these numbered parameters, the repeated code may also be
+    replaced by a loop. Such sections like this are possible to be cases of automatically generated code by a
+    program generator, but there have also been instances found were situations like this are created by hand from
+    a certain specification in which the language was missing arrays in the structures. If the programmer wants to
+    turn the copies of code into calls for new procedures, the relation compared with the parameters’ names in both
+    sections implies what the proper parameters should be instead for the procedure. In another case, if it seems
+    more practical to keep the duplication function, a profile can be created that details for each line of code
+    where other existing copies are in the system based on the maximum amount of exact or parameterized matches so
+    when a bug happens in one of the copies of the code, the programmer can fix all of the other copies as well.
+</p>
 
     <p>
         Whether it be for copyrighted, reengineering or general management purposes, many duplication finders like Dub

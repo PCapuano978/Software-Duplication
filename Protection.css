@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+/* I put in the background image and worked with its sapceing */
 html {
     background-image: url('tim-evans-88330-unsplash.jpg');
     background-repeat: no-repeat;
@@ -7,11 +8,14 @@ html {
     background-attachment: fixed;
 }
 
+/* set up the heading */
 h1 {
     text-align: center;
     font-size: 3em;
 }
 
+/* set up the img that is inline with the text. */
 section img {
     float: right;
+    margin-left: 2em;
 }

@@ -1,6 +1,7 @@
 @charset "utf-8";
 
 
+
 html {
     background-image: url('antique-book-hand-207681.jpg');
     background-size: 100em;
@@ -8,10 +9,11 @@ html {
     background-repeat: no-repeat;
 }
 
+/* Changes made in CSS to the whole page of duplication_diner.hmt */
+
 body p {
     font-size: 1.25em;
-    color: rgb(255, 220, 20);
-    padding: 20px;
+    padding: 1em 1em 2em 1em;
 }
 
 body > header > img {
@@ -23,6 +25,8 @@ body > header > img {
 
  section img {
     float: right;
+    margin-top: 4.5em;
+    margin-left: 1.5em;
     border-style: inset;
     border-width: .25em;
     border-color: rgb(255, 220, 20);

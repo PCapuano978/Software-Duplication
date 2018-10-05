@@ -26,6 +26,7 @@ Header>nav>ul>li>a:active {
     background-color: rgb(49, 62, 170)
 }
 
+/* set up the nav as a table */
 header>nav {
     display: table;
     width: 100%;
@@ -60,7 +61,7 @@ section p {
     text-indent: 4em;
 }
 
-
+/* Set up the spaceing of the header */
 header img {
     border-style: inset;
     border-width: .25em;
@@ -71,4 +72,10 @@ Header img {
     margin-right: 2.5em;
     margin-top: 0em;
     margin-left: 2.5em;
+}
+
+/* set up the heading for each of the pages */
+h1 {
+    text-align: center;
+    font-size: 3em;
 }

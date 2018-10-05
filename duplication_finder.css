@@ -8,22 +8,33 @@ html {
     background-repeat: no-repeat;
 }
 
+/* Changes in CSS that are made throug the whole page of duplication_finder.css and include a fixed 
+background image that does not repeat with a size of 100em. */
+
 body p {
     font-size: 1.25em;
     color: rgb(255, 220, 20);
     padding: 20px;
 }
 
-body > header > img {
-    float: center;
+/* Now effecting changes made in the body paragraphs is a slightly bigger than standard font of 1.25em
+and a padding of 2em on the bottom and 1em on the other sides.  */
+
+body>header>img {
     border-style: inset;
     border-width: .25em;
     border-color: rgb(255, 220, 20);
 }
 
- section img {
+/* Applied to the image that goes directly under the header in which is also directly under the body
+is given a yellow border with a width of .25em and a style of "inset". */
+
+section img {
     float: right;
     border-style: inset;
     border-width: .25em;
     border-color: rgb(255, 220, 20);
- }
+}
+
+/* Lastly, the image within the section tags has the text wrap around it on the right side and while
+given the same yellow, inset border with a with of .25em. */

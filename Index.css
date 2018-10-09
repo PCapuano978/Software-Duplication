@@ -17,6 +17,11 @@ section ul {
     text-indent: 3em;
 }
 
+section img {
+    float: right;
+    margin-left: 2em;
+}
+
 html {
     background-image: url('erol-ahmed-325224-unsplash.jpg');
     background-repeat: no-repeat;

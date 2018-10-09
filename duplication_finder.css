@@ -12,10 +12,10 @@ html {
 /* Changes in CSS that are made throug the whole page of duplication_finder.css and include a fixed 
 background image that does not repeat with a size of 100em. */
 
-body p {
+/* body p {
     font-size: 1.25em;
     padding: 1em 1em 2em 1em;
-}
+} */
 
 /* Now effecting changes made in the body paragraphs is a slightly bigger than standard font of 1.25em
 and a padding of 2em on the bottom and 1em on the other sides.  */
